@@ -13,7 +13,7 @@
 $EM_CONF[$_EXTKEY] = array(
 	'title' => 'Themes Distribution',
 	'description' => '',
-	'category' => 'fe',
+	'category' => 'distribution',
 	'shy' => 0,
 	'version' => '0.1.0',
 	'dependencies' => '',
@@ -27,16 +27,16 @@ $EM_CONF[$_EXTKEY] = array(
 	'modify_tables' => '',
 	'clearcacheonload' => 0,
 	'lockType' => '',
-	'author' => 'Kay Strobach',
-	'author_email' => 'typo3@kay-strobach.de',
-	'author_company' => 'private',
+	'author' => 'Themes-Team',
+	'author_email' => 'team@typo3-themes.org',
+	'author_company' => '',
 	'CGLcompliance' => '',
 	'CGLcompliance_note' => '',
 	'constraints' => array(
 		'depends' => array(
 			'php' => '5.2.0-0.0.0',
 			'typo3' => '6.1.99-6.2.99',
-			'themes' => '1.0.1',
+			'theme_bootstrap' => '1.0.1',
 		),
 		'conflicts' => array(
 		),
