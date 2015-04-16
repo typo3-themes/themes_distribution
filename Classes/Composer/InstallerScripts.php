@@ -39,7 +39,7 @@ class InstallerScripts {
 			$flashMessageQueue = $flashMessageService->getMessageQueueByIdentifier($messageQueueByIdentifier);
 
 			$flashMessage = GeneralUtility::makeInstance('TYPO3\\CMS\\Core\\Messaging\\FlashMessage',
-				'Have fun with TYPO3-THEMES',
+				'Have fun with TYPO3-THEMES! You may have to refresh your Pagetree in order to see the imported pages.',
 				'Installation completed!',
 				FlashMessage::OK,
 				TRUE
